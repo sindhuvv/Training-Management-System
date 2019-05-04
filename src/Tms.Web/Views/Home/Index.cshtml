@@ -1,0 +1,14 @@
+﻿@model TrainingsViewModel
+@{
+	ViewData["Title"] = "TMS";
+}
+@section headBar2Left{
+	<span id="pageTitle">Dashboard</span>
+}
+@section headBar2Right{
+	<button style="margin-right:10px; margin-left:5px;" class="btn btn-info btn-sm"><span class="fas fa-file-export"></span>&nbsp; Export to Excel</button>
+}
+
+<partial name="../Poc/_Dashboard.cshtml" />
+<script src="~/js/chart.js"></script>
+
